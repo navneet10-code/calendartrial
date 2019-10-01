@@ -1,10 +1,10 @@
 <?php
 // DATABASE CONNECTION STRING
 
-define('HOST', 'localhost');
-define('USERNAME', 'root');
-define('PASSWORD', 'ur48x');
-define('DATABASE_NAME', 'event_calendar');
+define('HOST', 'sql12.freemysqlhosting.net');
+define('USERNAME', 'sql12306370');
+define('PASSWORD', 'tfR9HnxDVV');
+define('DATABASE_NAME', 'sql12306370');
 
 //Connect and select the database
 $db = new mysqli(HOST, USERNAME, PASSWORD, DATABASE_NAME);
